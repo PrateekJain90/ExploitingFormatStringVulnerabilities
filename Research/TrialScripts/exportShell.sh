@@ -1,0 +1,1 @@
+export SHELLCODE="AAAAAA"

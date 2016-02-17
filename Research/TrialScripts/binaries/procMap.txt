@@ -1,0 +1,14 @@
+08048000-08049000 r-xp 00000000 08:01 297937                             /home/prateekj/Desktop/ResearchProject/Research/FinalFiles/binaries/problem1
+08049000-0804a000 r--p 00000000 08:01 297937                             /home/prateekj/Desktop/ResearchProject/Research/FinalFiles/binaries/problem1
+0804a000-0804b000 rw-p 00001000 08:01 297937                             /home/prateekj/Desktop/ResearchProject/Research/FinalFiles/binaries/problem1
+f7e07000-f7e08000 rw-p 00000000 00:00 0 
+f7e08000-f7fb1000 r-xp 00000000 08:01 917910                             /lib/i386-linux-gnu/libc-2.19.so
+f7fb1000-f7fb3000 r--p 001a9000 08:01 917910                             /lib/i386-linux-gnu/libc-2.19.so
+f7fb3000-f7fb4000 rw-p 001ab000 08:01 917910                             /lib/i386-linux-gnu/libc-2.19.so
+f7fb4000-f7fb7000 rw-p 00000000 00:00 0 
+f7fd9000-f7fdb000 rw-p 00000000 00:00 0 
+f7fdb000-f7fdc000 r-xp 00000000 00:00 0                                  [vdso]
+f7fdc000-f7ffc000 r-xp 00000000 08:01 917947                             /lib/i386-linux-gnu/ld-2.19.so
+f7ffc000-f7ffd000 r--p 0001f000 08:01 917947                             /lib/i386-linux-gnu/ld-2.19.so
+f7ffd000-f7ffe000 rw-p 00020000 08:01 917947                             /lib/i386-linux-gnu/ld-2.19.so
+fffdd000-ffffe000 rw-p 00000000 00:00 0                                  [stack]

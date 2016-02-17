@@ -1,0 +1,42 @@
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+#1  0x08048652 in main ()
+[Inferior 1 (process 10852) exited normally]
+Dump of assembler code for function main:
+   0x080485d2 <+0>:	push   %ebp
+   0x080485d3 <+1>:	mov    %esp,%ebp
+   0x080485d5 <+3>:	and    $0xfffffff0,%esp
+   0x080485d8 <+6>:	sub    $0x220,%esp
+   0x080485de <+12>:	mov    0xc(%ebp),%eax
+   0x080485e1 <+15>:	mov    %eax,0xc(%esp)
+   0x080485e5 <+19>:	mov    %gs:0x14,%eax
+   0x080485eb <+25>:	mov    %eax,0x21c(%esp)
+   0x080485f2 <+32>:	xor    %eax,%eax
+   0x080485f4 <+34>:	cmpl   $0x2,0x8(%ebp)
+   0x080485f8 <+38>:	je     0x8048611 <main+63>
+   0x080485fa <+40>:	mov    $0xffffffff,%eax
+   0x080485ff <+45>:	mov    0x21c(%esp),%edx
+   0x08048606 <+52>:	xor    %gs:0x14,%edx
+   0x0804860d <+59>:	je     0x804866f <main+157>
+   0x0804860f <+61>:	jmp    0x804866a <main+152>
+   0x08048611 <+63>:	mov    0xc(%esp),%eax
+   0x08048615 <+67>:	add    $0x4,%eax
+   0x08048618 <+70>:	mov    (%eax),%eax
+   0x0804861a <+72>:	movl   $0x200,0x8(%esp)
+   0x08048622 <+80>:	mov    %eax,0x4(%esp)
+   0x08048626 <+84>:	lea    0x1b(%esp),%eax
+   0x0804862a <+88>:	mov    %eax,(%esp)
+   0x0804862d <+91>:	call   0x8048480 <strncpy@plt>
+   0x08048632 <+96>:	movb   $0x0,0x21b(%esp)
+   0x0804863a <+104>:	movl   $0x804871b,(%esp)
+   0x08048641 <+111>:	call   0x8048400 <printf@plt>
+   0x08048646 <+116>:	lea    0x1b(%esp),%eax
+   0x0804864a <+120>:	mov    %eax,(%esp)
+   0x0804864d <+123>:	call   0x8048400 <printf@plt>
+   0x08048652 <+128>:	movl   $0x804872c,(%esp)
+   0x08048659 <+135>:	call   0x8048430 <puts@plt>
+   0x0804865e <+140>:	movl   $0x0,(%esp)
+   0x08048665 <+147>:	call   0x8048460 <exit@plt>
+   0x0804866a <+152>:	call   0x8048410 <__stack_chk_fail@plt>
+   0x0804866f <+157>:	leave  
+   0x08048670 <+158>:	ret    
+End of assembler dump.
